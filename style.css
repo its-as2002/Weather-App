@@ -17,7 +17,7 @@ html,body{
 .card{
     padding: 20px;
     height: auto;
-    width: 26%;
+    width: auto;
     background: linear-gradient(135deg,#00feba,#5b548a);
     border-radius: 20px;
     color : #fff;
