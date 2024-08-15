@@ -6,7 +6,6 @@ async function ch(city) {
     
     var response = await fetch(url+`&q=${city}`);
     var data = await response.json();
-    console.log(data);
     document.querySelector('.temp').innerHTML = data.main.temp+'°C';
     document.querySelector('.city').innerHTML = data.name;
     document.querySelector('.humidity').innerHTML = data.main.humidity+'%';
